@@ -10,7 +10,7 @@ export const fetchPosts = () => {
       console.log(response.data.meals);
       dispatch({
         type: "SET_MEAL",
-        payload: response.data,
+        payload: response.data.meals,
       });
     } catch (err) {
       console.log("Err", err);

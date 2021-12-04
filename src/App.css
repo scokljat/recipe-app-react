@@ -8,3 +8,88 @@ body {
   margin: 0;
   padding: 0;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+}
+.titleWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: #f2edd7;
+  font-size: 50px;
+  margin: 10px;
+}
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  color: #f2edd7;
+  font-style: italic;
+  margin: 0;
+}
+.image {
+  height: 400px;
+  width: 100%;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.ingredients {
+  list-style-type: circle;
+  color: #f2edd7;
+  font-size: 20px;
+}
+.ingredients h3 {
+  font-style: italic;
+}
+.ingredients li {
+  padding: 5px;
+}
+.ingredients li:hover {
+  background-color: #e9c891;
+}
+.measures {
+  list-style-type: circle;
+  color: #f2edd7;
+  font-size: 20px;
+}
+.measures h3 {
+  font-style: italic;
+}
+.measures li {
+  padding: 5px;
+}
+.measures li:hover {
+  background-color: #e9c891;
+}
+.instructions {
+  color: #f2edd7;
+  font-size: 20px;
+}
+.tags {
+  text-decoration: none;
+  color: #f2edd7;
+  font-size: 20px;
+  text-align: start;
+  font-style: italic;
+}
+.tags:hover {
+  background-color: #e9c891;
+}
+@media (min-width: 1024px) {
+  .ekran {
+    display: flex;
+  }
+  .wrap {
+    margin: 0 10%;
+  }
+  .image {
+    width: 50%;
+  }
+}

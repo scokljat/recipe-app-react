@@ -6,7 +6,7 @@ const initialState = {
 export const reducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case ActionType.SET_MEAL:
-      return { ...state, cat: payload };
+      return { ...state, meal: payload };
     default:
       return state;
   }
