@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchPosts } from "./action";
+import { fetchPosts } from "../action/action";
 
 function Posts() {
   const meal = useSelector((state) => state);
@@ -23,7 +23,7 @@ function Posts() {
                 <h2>{item.strCategory}</h2>
               </div>
               <div className="ekran">
-                <img className="image" src={item.strMealThumb} />
+                <img className="image" src={item.strMealThumb} alt="" />
                 <div className="wrap">
                   <div className="ingredients">
                     <h3>Ingredients :</h3>
