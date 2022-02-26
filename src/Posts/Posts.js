@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
+
 import { fetchPosts } from "../action/action";
 
 function Posts() {
